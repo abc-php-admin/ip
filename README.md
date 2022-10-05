@@ -5,7 +5,7 @@ The ThinkPHP 6 ip Package
 > composer require abcphp/think-ip
 
 ## 获取ip
-\abc\Ip::find("10.82.245.13")
+> \abc\Ip::find("10.82.245.13")
 
 ```
 array(7) {
@@ -26,5 +26,5 @@ array(7) {
 }
 ```
 
-## 更新数据
-\abc\Ip::udpate()
+##更新数据
+> \abc\Ip::udpate()
