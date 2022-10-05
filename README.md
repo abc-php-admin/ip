@@ -2,7 +2,7 @@
 The ThinkPHP 6 ip Package
 
 ## 安装
-> composer require abcphp/think-ip
+> composer require abcphp/think-ip @dev
 
 ## 获取ip
 > \abc\Ip::find("10.82.245.13")
