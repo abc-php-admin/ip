@@ -1,0 +1,25 @@
+{
+    "name": "abcphp/think-ip",
+    "description": "The ThinkPHP6 ip Package",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "abcphp",
+            "email": "admin@xxgo.cn"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.5",
+        "topthink/framework": "^6.0.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "abc\\": "src/"
+        }
+        
+    },
+    "scripts" : {
+        "post-update-cmd": "abc\\Ip::update"
+        
+    }
+}
